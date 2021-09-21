@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Contact formulier</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+
+  <body>
+      <h1>Contact me!</h1>
+      <form class="myform" name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Your Name: </label>   <input type="text" name="name" />
+          </p>
+          <p>
+            <label>Your Email: </label><input type="email" name="email" />
+          </p>
+          <p>
+          <label>Comments: </label> <textarea name="comments"></textarea>
+          </p>
+          <p><label> Your age:</label>
+          <select name="age">
+          <option value="18-30"> 18 to 30 years old</option>
+          <option value="30-60"> 30 to 60 years old</option>
+          <option value="60-more">Older than 60 years old</option>
+          </select>
+          </p>
+          <p>
+            <button type="submit">Submit</button>
+          </p>
+      </form>
+      <div class="leave-form">
+          <a href="index.html">Back to the home page.</a>
+      </div>
+
+  </body>
+</html>  
